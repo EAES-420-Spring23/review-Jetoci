@@ -24,10 +24,13 @@ solubility_hardness <- read_csv("data/solubility_hardness.csv")
 
 ```{r inspect-sand-minerals}
 glimpse(sites)
+names(sites)
 ```
 
 Number of rows = `r nrow(sites)`
 Number of variables = `r ncol(sites)`
+
+The rows are the names of minerals and different locations. 
 
 ### Exercise 2
 
