@@ -26,6 +26,8 @@ solubility_hardness <- read_csv("data/solubility_hardness.csv")
 glimpse(sites)
 ```
 
+Number of rows = `r nrow(sites)`
+Number of variables = `r ncol(sites)`
 
 ### Exercise 2
 
