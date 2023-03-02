@@ -32,13 +32,14 @@ Number of variables = `r ncol(sites)`
 
 The rows are the names of minerals and different locations. 
 
-
 ### Exercise 2
 
-Remove this text, and add your answer for Exercise 2 here.
-Add code chunks as needed.
-Don't forget to label your code chunk.
-Do not use spaces in code chunk labels.
+```{r inspect-other-data-frames}
+glimpse(location_descriptions)
+glimpse(density)
+glimpse(solubility_hardness)
+```
+
 
 ### Exercise 3
 
