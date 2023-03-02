@@ -38,6 +38,9 @@ The rows are the names of minerals and different locations.
 glimpse(location_descriptions)
 glimpse(density)
 glimpse(solubility_hardness)
+names(location_descriptions)
+names(density)
+names(solubility_hardness)
 ```
 Number of rows for location_description = `r nrow(location_descriptions)`
 Number of variables for location_description= `r ncol(location_descriptions)`
