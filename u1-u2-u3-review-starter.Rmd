@@ -93,10 +93,16 @@ sand_mineral_properties %>%
 
 ### Exercise 5
 
-Remove this text, and add your answer for Exercise 5 here.
-Add code chunks as needed.
-Don't forget to label your code chunk.
-Do not use spaces in code chunk labels.
+```{r distinct-density-values}
+sand_mineral_properties %>% 
+  distinct(density)
+```
+```{r count-minerals}
+sand_mineral_properties %>% 
+  count(minerals)
+```
+
+
 
 ### Exercise 6
 
