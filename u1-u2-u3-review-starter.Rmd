@@ -56,7 +56,7 @@ In the location_descriptions dataframe, the rows corresponds to the location of 
 ### Exercise 3
 
 ```{r join-mineral-properties}
-sand_mineral_density <- sites %>% 
+sand_mineral_properties <- sites %>% 
   left_join(density) %>%
   left_join(solubility_hardness)
   
