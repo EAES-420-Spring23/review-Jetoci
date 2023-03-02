@@ -30,10 +30,8 @@ names(sites)
 Number of rows = `r nrow(sites)`
 Number of variables = `r ncol(sites)`
 
-<<<<<<< HEAD
-=======
 The rows are the names of minerals and different locations. 
->>>>>>> d9cfd5893bb583082d7e48baac64880c76b0e7b9
+
 
 ### Exercise 2
 
