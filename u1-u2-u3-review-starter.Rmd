@@ -48,6 +48,8 @@ Number of variables for density = `r ncol(density)`
 Number of rows for solubility_hardness = `r nrow(solubility_hardness)`
 Number of variables for solubility_hardness= `r ncol(solubility_hardness)`
 
+In the location_descriptions dataframe, the rows corresponds to the location of minerals. In the density dataframe, the rows include the identity of the minerals and the density. In the solubility_hardness dataframe, the rows includes the mineral names, solubility, and hardness.
+
 ### Exercise 3
 
 Remove this text, and add your answer for Exercise 3 here.
