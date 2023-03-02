@@ -103,8 +103,10 @@ sand_mineral_properties %>%
 
 ```
 
-```{r}
-
+```{r density_1000}
+sand_mineral_properties %>% 
+  mutate(density_1000 = density/1000) 
+  
 ```
 
 
