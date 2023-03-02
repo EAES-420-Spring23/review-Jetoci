@@ -73,6 +73,11 @@ sand_mineral_properties %>%
 sand_mineral_properties %>% 
   slice(n = 13:23)
 ```
+```{r arrange-by-density}
+sand_mineral_properties %>% 
+  arrange(desc(density)) %>% 
+  slice(13:23)
+```
 
 
 ### Exercise 5
