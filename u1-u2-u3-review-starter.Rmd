@@ -39,7 +39,14 @@ glimpse(location_descriptions)
 glimpse(density)
 glimpse(solubility_hardness)
 ```
+Number of rows for location_description = `r nrow(location_descriptions)`
+Number of variables for location_description= `r ncol(location_descriptions)`
 
+Number of rows for density = `r nrow(density)`
+Number of variables for density = `r ncol(density)`
+
+Number of rows for solubility_hardness = `r nrow(solubility_hardness)`
+Number of variables for solubility_hardness= `r ncol(solubility_hardness)`
 
 ### Exercise 3
 
