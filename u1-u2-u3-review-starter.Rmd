@@ -100,8 +100,12 @@ sand_mineral_properties %>%
 ```{r count-minerals}
 sand_mineral_properties %>% 
   count(minerals)
+
 ```
 
+```{r}
+
+```
 
 
 ### Exercise 6
