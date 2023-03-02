@@ -83,6 +83,11 @@ sand_mineral_properties %>%
   select(location, hardness) %>%
   slice(19:23)
 ```
+```{r}
+sand_mineral_properties %>% 
+  arrange(desc(hardness), na.rm= TRUE) %>% 
+  slice(1:5)
+```
 
 
 
