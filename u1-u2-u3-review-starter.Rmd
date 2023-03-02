@@ -78,7 +78,7 @@ sand_mineral_properties %>%
   arrange(desc(density)) %>% 
   slice(13:23)
 ```
-```{r sand-mineral-location-hardness}
+```{r sand-mineral_location-hardness}
 sand_mineral_properties %>%
   select(location, hardness) %>%
   slice(19:23)
