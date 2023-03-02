@@ -57,7 +57,9 @@ In the location_descriptions dataframe, the rows corresponds to the location of 
 
 ```{r join-mineral-properties}
 sand_mineral_density <- sites %>% 
-  left_join(density)
+  left_join(density) %>%
+  left_join(solubility_hardness)
+  
 ```
 The output has 23 rows, and it is the same as sand_minerals. 
 
