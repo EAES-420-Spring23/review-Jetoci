@@ -56,10 +56,10 @@ In the location_descriptions dataframe, the rows corresponds to the location of 
 ### Exercise 3
 
 ```{r join-mineral-properties}
-sites %>% 
+sand_mineral_density <- sites %>% 
   left_join(density)
 ```
-
+The output has 23 rows, and it is the same as sand_minerals. 
 
 ### Exercise 4
 
